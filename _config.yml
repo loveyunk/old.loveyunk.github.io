@@ -55,6 +55,9 @@ baseurl: ""
 
 permalink: /:title/
 
+# 摘录
+excerpt_separator: ""
+
 # The release of Jekyll Now that you're using
 version: v1.2.0
 
