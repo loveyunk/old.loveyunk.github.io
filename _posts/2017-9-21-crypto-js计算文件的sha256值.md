@@ -1,0 +1,23 @@
+---
+layout: post
+title: crypto-js计算文件的sha256值
+---
+
+1. 要在浏览器中计算出文件的sha256或md5值，基本思路就是使用HTML5的FileReader接口把文件读取到内存(readAsArrayBuffer)，然后获取文件的二进制内容，然后获取文件的shaa256或md5值。
+2. ArrayBuffer是一块内存，ArrayBuffer对象被用来表示一个通用的，固定长度的二进制数据缓冲区。
+3. CryptoJS (crypto.js) 为 JavaScript 提供了各种各样的加密算法。目前已支持的算法包括： MD5 SHA-1 SHA-256 AES Rabbit MARC4 HMAC HMAC-MD5 HMAC-SHA1... <br>
+
+首先从input type=file中读取文件，然后使用以下代码计算出sha256值。
+{% highlight ruby %}
+let reader = new FileReader();
+reader.readAsArrayBuffer(file.files[0]);
+reader.onload = function () {
+    var wordArray = CryptoJS.lib.WordArray.create(reader.result);
+    var hash = CryptoJS.SHA256(wordArray).toString();
+};
+{% endhighlight %}
+<br>
+<br>
+
+参考：
+> [https://stackoverflow.com/questions/27060248/calculate-sha-256-hash-and-b64-of-a-file-in-javascript](https://stackoverflow.com/questions/27060248/calculate-sha-256-hash-and-b64-of-a-file-in-javascript)
