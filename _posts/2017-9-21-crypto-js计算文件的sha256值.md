@@ -8,7 +8,7 @@ title: crypto-js计算文件的sha256值
 3. CryptoJS (crypto.js) 为 JavaScript 提供了各种各样的加密算法。目前已支持的算法包括： MD5 SHA-1 SHA-256 AES Rabbit MARC4 HMAC HMAC-MD5 HMAC-SHA1... <br>
 
 首先从input type=file中读取文件，然后使用以下代码计算出sha256值。
-{% highlight javascript %} 
+{% highlight ruby %} 
 let reader = new FileReader();
 reader.readAsArrayBuffer(file.files[0]);
 reader.onload = function () {
