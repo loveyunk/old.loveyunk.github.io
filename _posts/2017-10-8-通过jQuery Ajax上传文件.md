@@ -4,11 +4,28 @@ title: 通过jQuery Ajax上传文件
 ---
 
 {% highlight ruby%}
+<form id="uploadForm" enctype="multipart/form-data">
+    <input id="file" type="file" name="file"/>
+    <button id="upload" type="button">upload</button>
+</form>
+
+$.ajax({
+    url: '/upload',
+    type: 'POST',
+    cache: false,
+    data: new FormData($('#uploadForm')[0]),
+    processData: false,
+    contentType: false
+}).done(function(res) {
+}).fail(function(res) {});
+{% endhighlight %}
+
+{% highlight ruby%}
 let form = new FormData();
 form.append("png_file", file);
 $.ajax({
     type: 'POST',
-    url: '',
+    url: '/upload',
     dataType: 'json',
     catch: false,
     "processData": false,
