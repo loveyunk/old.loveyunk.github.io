@@ -69,11 +69,14 @@ p {
 }
 
 a {
-  color: $blue;
+  //color: $blue;
+  color: #00a;
   text-decoration: none;
   cursor: pointer;
+  font-size: 80%;
   &:hover, &:active {
-    color: $blue;
+    //color: $blue;
+    color: black;
   }
 }
 
