@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="563af36e-88a7-4576-b9a4-09a572409bad" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-10-11-如何生成ssh key.md" afterPath="$PROJECT_DIR$/_posts/2017-10-11-如何生成ssh key.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-10-12-如何处理支付宝支付后端返回的html代码.md" afterPath="$PROJECT_DIR$/_posts/2017-10-12-如何处理支付宝支付后端返回的html代码.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-9-20-vue-cli项目引入jquery.md" afterPath="$PROJECT_DIR$/_posts/2017-9-20-vue-cli项目引入jquery.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,7 +16,21 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="2017-10-11-如何生成ssh key.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2017-10-11-如何生成ssh key.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="394">
+                <caret line="25" column="16" lean-forward="true" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -24,10 +38,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_posts/2017-9-20-vue-cli项目引入jquery.md" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/_posts/2017-10-11-如何生成ssh key.md" />
         <option value="$PROJECT_DIR$/_posts/2017-10-12-如何处理支付宝支付后端返回的html代码.md" />
+        <option value="$PROJECT_DIR$/_posts/2017-9-20-vue-cli项目引入jquery.md" />
+        <option value="$PROJECT_DIR$/_posts/2017-10-11-如何生成ssh key.md" />
       </list>
     </option>
   </component>
@@ -58,6 +72,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -75,7 +90,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -115,11 +129,12 @@
       <workItem from="1507733778149" duration="2414000" />
       <workItem from="1507742911624" duration="133000" />
       <workItem from="1507772929291" duration="567000" />
+      <workItem from="1507774696317" duration="103000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5493000" />
+    <option name="totallyTimeSpent" value="5596000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -153,16 +168,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_posts/2017-9-20-vue-cli项目引入jquery.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="40">
-            <caret line="2" column="24" lean-forward="true" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/first-post.png" />
     <entry file="file://$PROJECT_DIR$/images/jekyll-logo.png" />
     <entry file="file://$PROJECT_DIR$/images/jekyll-now-theme-screenshot.jpg" />
@@ -195,22 +200,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2017-10-11-如何生成ssh key.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2017-10-12-如何处理支付宝支付后端返回的html代码.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="394">
-            <caret line="25" column="16" lean-forward="true" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="368">
+            <caret line="86" column="19" lean-forward="false" selection-start-line="86" selection-start-column="19" selection-end-line="86" selection-end-column="19" />
             <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2017-10-12-如何处理支付宝支付后端返回的html代码.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2017-9-20-vue-cli项目引入jquery.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="368">
-            <caret line="86" column="19" lean-forward="false" selection-start-line="86" selection-start-column="19" selection-end-line="86" selection-end-column="19" />
+          <first_editor relative-caret-position="428">
+            <caret line="31" column="18" lean-forward="false" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2017-10-11-如何生成ssh key.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="394">
+            <caret line="25" column="16" lean-forward="true" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
             <folding />
           </first_editor>
           <second_editor />

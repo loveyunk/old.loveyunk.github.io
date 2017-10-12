@@ -22,5 +22,13 @@ module.exports = {
 {% endhighlight %}
 <br>
 3.打开 `.eslintrc.js` 添加如下代码：
+{% highlight ruby %}
+module.exports = {
+  globals: {
+    "$": true,
+    "jQuery": true
+  },
+  ...
+{% endhighlight %}
 <br>
 4.现在可以在你的项目中使用 `$` 了
