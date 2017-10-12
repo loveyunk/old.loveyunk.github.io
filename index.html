@@ -7,7 +7,7 @@ layout: default
     <article class="post">
 
         <!--<h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>-->
-        <span class="time">{{ page.date | date: "%B %e %Y" }}</span>»<a href="{{ site.baseurl }}{{ post.url }}">{{
+        <span class="time">{{ page.date | date: "%B %e %Y" }}</span><a href="{{ site.baseurl }}{{ post.url }}">{{
         post.title }}</a>
 
         <div class="entry">
@@ -17,4 +17,5 @@ layout: default
         <!--<a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>-->
     </article>
     {% endfor %}
+    {% include disqus.html %}
 </div>
