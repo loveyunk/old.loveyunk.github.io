@@ -243,7 +243,7 @@ nav {
 
     @include mobile {
       margin: 0 10px;
-      color: $blue;
+      //color: $blue;
     }
   }
 }
@@ -253,7 +253,7 @@ nav {
 //
 
 .posts > .post {
-  padding-bottom: 1.6em;
+  padding-bottom: .5em;
   //border-bottom: 1px solid $lightGray;
 }
 
