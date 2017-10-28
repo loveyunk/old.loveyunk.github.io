@@ -5,7 +5,7 @@ title: 通过git在github上创建gh-pages分支生成预览
 
 项目本身是一个git仓库，而最终打包生成的可预览文件在dist文件夹下，所以要将dist文件夹上传至gh-pages分支。
 1. 进入到dist文件夹下：
-    * ``cd dist``
+    * ```cd dist
     * ``git init`` // git初始化，在dist文件夹里再初始化一个git仓库
 2. 创建gh-pages分支：
     * ``git checkout --orphan gh-pages`` // 用于创建一个全新的分支，不包含提交的历史，如果不提交东西，这个分支相当于没有创建

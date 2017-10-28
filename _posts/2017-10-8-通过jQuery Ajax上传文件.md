@@ -56,5 +56,5 @@ ajax post方式则需将Content-type头信息设置为application/x-www-form-url
 而能过jquery ajax形式，ContentType默认为application/x-www-form-urlencoded
 
 参考：
-> [通过jQuery Ajax使用FormData对象上传文件](http://blog.csdn.net/xllily_11/article/details/52330280)
+> [通过jQuery Ajax使用FormData对象上传文件](http://blog.csdn.net/xllily_11/article/details/52330280)<br>
 > [HTMLFormElement.enctype](https://developer.mozilla.org/en-US/docs/Web/API/HTMLFormElement/enctype)
