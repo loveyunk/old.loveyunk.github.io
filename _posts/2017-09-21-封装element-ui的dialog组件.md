@@ -4,7 +4,7 @@ title: 封装element-ui的dialog组件
 ---
 
 封装组件：
-{% highlight ruby %}
+``` js
 <template>
     <div class="dialog-container">
         <el-dialog
@@ -37,9 +37,9 @@ title: 封装element-ui的dialog组件
         }
     };
 </script>
-{% endhighlight %}
+```
 使用：
-{% highlight ruby %}
+``` js
 <template>
     <div class="container">
         <z-dialog :show.sync="show"></z-dialog>
@@ -66,4 +66,4 @@ title: 封装element-ui的dialog组件
         }
     };
 </script>
-{% endhighlight %}
+```

@@ -45,35 +45,35 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 20px;
+  font-size: 22px;
   a {
     color: inherit;
   }
 }
 
 h2 {
-  font-size: 18px;
+  font-size: 20px;
 }
 
 h3 {
-  font-size: 16px;
+  font-size: 18px;
 }
 
 h4 {
-  font-size: 14px;
+  font-size: 16px;
   color: $gray;
 }
 
 p {
-  font-size: 13px;
+  font-size: 100%;
   margin: 15px 0;
 }
 
 a {
   color: $blue;
   text-decoration: none;
+  font-size: 100%;
   cursor: pointer;
-  font-size: 80%;
   &:hover, &:active {
     color: $black;
   }
@@ -85,7 +85,7 @@ a {
 }
 
 ul, ol {
-  font-size: 13px;
+  font-size: 100%;
   margin: 15px 0;
   padding-left: 30px;
 }
@@ -116,6 +116,20 @@ strong, b {
 
 img {
   max-width: 100%;
+}
+
+table {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  line-height: 20px;
+}
+
+th {
+  font-weight: 700;
 }
 
 // Fixes images in popup boxes from Google Translate
@@ -212,7 +226,7 @@ img {
   cursor: pointer;
   font-family: $helveticaNeue;
   font-weight: 300;
-  font-size: 28px;
+  font-size: 25px;
   letter-spacing: 1px;
 }
 
@@ -230,7 +244,7 @@ nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
   font-family: $helveticaNeue;
-  font-size: 18px;
+  font-size: 16px;
 
   @include mobile {
     float: none;
@@ -260,6 +274,9 @@ nav {
 .posts > .post {
   padding-bottom: .5em;
   //border-bottom: 1px solid $lightGray;
+  & > a {
+    font-size: 80%;
+  }
 }
 
 .posts > .post:last-child {
@@ -270,11 +287,17 @@ nav {
 .post {
   blockquote {
     margin: 1.8em .8em;
-    border-left: 2px solid $gray;
-    padding: 0 1em;
+    // border-left: 2px solid $gray;
+    padding: 2px 1em;
     color: $gray;
-    font-size: 22px;
     font-style: italic;
+    background-color: #f7f7f7;
+    border-left: 6px solid #b4b4b4;
+    word-break: break-word!important;
+    word-break: break-all;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
   }
 
   .comments {

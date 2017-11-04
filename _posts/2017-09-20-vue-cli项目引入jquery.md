@@ -5,7 +5,7 @@ title: vue-cli项目引入jquery
 
 1.`npm install jquery --save` <br>
 2.打开文件 `build/webpack.base.conf.js` ，添加如下代码：<br>
-{% highlight ruby %}
+``` js
 var webpack = require("webpack")
 
 module.exports = {
@@ -19,16 +19,15 @@ module.exports = {
   ]
   ...
 } 
-{% endhighlight %}
-<br>
+```
+
 3.打开 `.eslintrc.js` 添加如下代码：
-{% highlight ruby %}
+``` js
 module.exports = {
   globals: {
     "$": true,
     "jQuery": true
   },
   ...
-{% endhighlight %}
-<br>
+```
 4.现在可以在你的项目中使用 `$` 了

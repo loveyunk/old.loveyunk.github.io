@@ -3,7 +3,7 @@ layout: post
 title: 通过jQuery Ajax上传文件
 ---
 
-{% highlight ruby%}
+``` js
 <form id="uploadForm" enctype="multipart/form-data">
     <input id="file" type="file" name="file"/>
     <button id="upload" type="button">upload</button>
@@ -18,9 +18,9 @@ $.ajax({
     contentType: false
 }).done(function(res) {
 }).fail(function(res) {});
-{% endhighlight %}
+```
 
-{% highlight ruby%}
+``` js
 let form = new FormData();
 form.append("png_file", file);
 $.ajax({
@@ -35,7 +35,7 @@ $.ajax({
 }).done(res => {
     console.log(res);
 });
-{% endhighlight %}
+```
 
 * processData设置为false。因为data值是FormData对象，不需要对数据做处理。
 * cache设置为false，上传文件不需要缓存。
