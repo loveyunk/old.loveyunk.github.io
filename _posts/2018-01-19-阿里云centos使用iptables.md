@@ -4,7 +4,7 @@ title:  阿里云centos使用iptables
 date:   2018-01-19
 ---
 
-* Centos 7 默认的防火墙是 firewall ，鉴于 iptables 使用的比较广，所有关掉 firewall ，使用 iptables .
+Centos 7 默认的防火墙是 firewall ，鉴于 iptables 使用的比较广，所有关掉 firewall ，使用 iptables .
 
 #### 检测并关闭firewall
 * 使用 systemctl status firewalld 查看服务状态，active/inactive表明服务是运行/关闭状态
@@ -14,7 +14,7 @@ date:   2018-01-19
 
 #### 安装 iptables
 * `yum install -y iptables-services`
--
+
 #### 设置 iptables
 * `systemctl start iptables` #启动iptables
 * `iptables -L -n` #查看 iptables 默认规则，默认规则配置文件`/etc/sysconfig/iptables`
@@ -30,6 +30,6 @@ date:   2018-01-19
 
 
 参考:
->[阿里云Centos配置iptables防火墙](https://www.cnblogs.com/suihui/p/4334224.html)
->[centos 7 配置iptables](https://www.cnblogs.com/qbyyqhcz/p/6007053.html)
+>[阿里云Centos配置iptables防火墙](https://www.cnblogs.com/suihui/p/4334224.html) <br>
+>[centos 7 配置iptables](https://www.cnblogs.com/qbyyqhcz/p/6007053.html) <br>
 >[iptables规则的查看、添加、插入、删除和修改](http://blog.csdn.net/l241002209/article/details/43987933)
